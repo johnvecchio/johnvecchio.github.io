@@ -1,0 +1,104 @@
+header a {
+  font-size:        2.5rem;
+  font-family:      "Josefin Slab", Helvetica,Arial,sans-serif;
+  margin-left:      2.5rem;
+}
+.navbar-fixed-top {
+    position:       fixed;
+    right:          0;
+    left:           0;
+    z-index:        1030;
+    top:            0;
+}
+
+a:link {
+    color:         black;
+}
+a:visited {
+    color:         black;
+}
+
+.jumbotron {
+  font-family: "Josefin Slab", Helvetica,Arial,sans-serif;
+  background-image: url("https://lh3.googleusercontent.com/HEvMi8QqzIp2399xB_My3EHvhuvchUx6W-Kd8nBzhGd17luY0nSHmNOzFZ30fc35WSt52nQ_2AtmVfdYUDI5-PK7j-2bG_qUG1lpeSCUnQT3C3Jj-Muz35OCuPxgpZPZIcshp5X4i8kk5Yqh1UxLmnyU0iQgSW5vXOGEN3GLu34cqQvJeyXD2jS8mwrioFGhDCG5oEbMe9_56P32RdneIR78ejtILpUNCIMOdzgDUjPiMnqnGK8TRqwt5t4ivxoDkfW6WKVPaTJ0n6tyeFMxy5Aw63TGqigZiQbwVvCon9PRadJYxAjbLRJlqxVggZkNPCpTMqPfYITITQkFE04LNHelp515hWbp0AJdJ0ZTeL7KO136gKyLRWUGJyD4zFFSGz5-BkgGJ_u305B3mP46hfmntXmUF-8L4Y6ZSnT_Uao2HYq_lkMRsMNBRfUqvqg3-57xemiBbcJ0nJPknrQy97el2oeXtqocND_N9fyC3f7sD6Mvml0AimC8p8FyeTxMp90NNH628SVHbgTdTjlwFhqWhDCGYyeBcxke75vKKxouqSgNtV5oLqfNTcpR4-v7IPTPym5YPSIi-PCIVuDiElx8sZ_rs9a1EonMsCQL8b9hNQSe6F8=w3233-h1818-no");
+  background-size: cover;
+  height:          83rem;
+  align-items:     center;
+  display:         flex;
+}
+
+.jumbotron h2 {
+  color:           white;
+  font-size:       7vw;
+  font-weight:     bold;
+  text-shadow:     4px 4px 4px #000000;
+}
+.jumbotron h3 {
+  color:           white;
+  font-size:       3.5vw;
+  font-weight:     bold;
+  text-shadow:     4px 4px 4px #000000;
+}
+
+.me h2 {
+  font-family:     "Josefin Slab", Helvetica,Arial,sans-serif;
+  font-size:       3rem;
+  font-weight:     bold;
+}
+.me p {
+  font-family:     "Josefin Slab", Helvetica,Arial,sans-serif;
+  font-size:       2rem;
+}
+
+.me img {
+  border-radius:   100%;
+}
+
+.projects {
+  font-family:     "Josefin Slab", Helvetica,Arial,sans-serif;
+  background-color:#e5d17b;
+  padding-bottom:  5rem;
+}
+.projects h1 {
+  margin-top:      6rem;
+  font-weight:     bold;
+  font-size:       4rem;
+}
+.projects h2 {
+  margin-top:      5rem;
+  font-weight:     bold;
+}
+
+.projects button {
+  background-color:black;
+}
+
+.background {
+  font-family:    "Josefin Slab", Helvetica,Arial,sans-serif;
+  padding-bottom: 5rem;
+}
+.background img {
+  margin:         .8rem;
+  height:         200px;
+  width:          200px;
+}
+.background h1 {
+  margin:          6rem;
+  font-weight:     bold;
+  font-size:       4rem;
+}
+.background h2 {
+  margin:         2rem;
+}
+ul {
+  list-style-type:circle;
+}
+.break {
+  margin-top:     3rem;
+  border-top:     2px solid grey;
+}
+
+footer {
+  margin:         3rem;
+  border-top:     2px solid grey;
+}
