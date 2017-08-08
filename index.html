@@ -1,203 +1,174 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>
-  John Vecchio
-</title>
-  <meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-<link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Josefin+Slab" />
-<link rel="stylesheet" type="text/css" href="/main.css" />
+
+<!-- MAKE IT SO WHEN YOU CLICK ON THE CD / IT EXPANDS AND SHRINKS TO WHICHEVER YOU ARENT ON -->
+	<title>John Vecchio - A Personal Bio</title>
+	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="main.css" />
+	<link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:300,600" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.11/components/icon.min.css">
 </head>
-
-
 <body>
-<header class="container">
-  <div class="row">
-    <nav class="navbar navbar-default navbar-fixed-top">
-      <div class="col-sm-12 text-center">
-        <br>
-        <a href="#projects">projects</a>
-        <a href="#background">background</a>
-      </div>
-    </nav>
-  </div>
-</header>
 
+<!-- NAVBAR AND ITEMS -->
+<nav class="navbar navbar-inverse navbar-fixed-top">
+  <div class="container-fluid">
+  	<div class='navbar-header'>
+  		<a href="#" class="navbar-brand">&lt;jv&gt;</a>
+  	</div>
+  	<ul class='nav navbar-nav'>
+<!--   		<li class='active'>
+			<a href="#">home</a>  			
+  		</li>
+  		<li>
+			<a href="#">profile</a>  	
+  		</li>
+  		 <li>
+			<a href="#">projects</a>  	
+  		</li>  		 
+  		<li>
+			<a href="#">workHistory</a>  			
+  		</li> -->
+  	</ul>
+  </div>
+</nav>
+
+<!-- JUMBOTRON UP IN HERE -->
 <section class="jumbotron">
   <div class="container">
     <div class="row text-center">
-      <h2>- John E Vecchio -</h2>
-      <h3>professional bio</h3>
+      <h2>john.vecchio();</h2>
+      <h3>this.professionalBio();</h3>
     </div>
   </div>
 </section>
 
-<div class="me">
-  <section class="container text-center">
-    <h2>--- Who Am I? ---</h2><br>
-    <div class="row">
-    <div class="col-sm-12">
-      <img src="/me.jpeg" width="300" height="300">
-      <br><br><br>
-      <p>Professional computer guy based out of Seattle</p>
-      <br>
-      <p>I am a recent transplant from Pittsburgh, PA (Go Pens). If I am not in front of a screen (computer, tv, or cinema), I am outside enjoying the Great Pacific Northwest. I am a super social person and always looking for a fun thing to do. Feel free to checkout my work below, spotify playlists included!                   </p><br>
-    </div>
-    </div>
-  </section>
+<div id="accordion">
+<!--  PROFILE  -->
+<div class="container">
+	<h2 class="top accordion-toggle">
+	~RUN $ cd /<span class="folder">profile</span></h2>
+
+	<div class="profile row accordion-content">
+		<hr/>
+		<p class="top cds">/README.md</p>
+		<hr/>
+		<div class="col-md-4 text-center">
+			<img id="mepic" src="/me.jpeg" width="246" height="246" />
+		</div>
+		<div class="col-md-4">
+			<h3>About me</h3>
+			<p class="cds">
+				Professional computer guy based out of Seattle
+			</p>
+			<p class="cds">
+				I am a recent transplant from Pittsburgh, PA (Go Pens). If I am not in front of a screen (computer, tv, or cinema), I am outside enjoying the Great Pacific Northwest. I am a super social person and always looking for a fun thing to do. Feel free to checkout my work below, spotify playlists included!
+			</p>
+		</div>
+		<div class="col-md-4">
+			<h3>Details</h3>
+			<p class="cds">
+				<strong>Name:</strong><br/>
+				John Vecchio<br/>
+				<strong>Age:</strong><br/>
+				25 years<br/>
+				<strong>Location:</strong><br/>
+				Seattle, WA<br/>
+				<strong>Media:</strong><br/>
+				</p>
+
+				<span class="mediaicons" id="mediaicons">
+					<a href="https://open.spotify.com/user/johnvecchio/playlist/4iOJJGtgIVl8ArKJ7cdhAK">
+						<i class="big spotify icon"></i></a>
+					<a href="mailto:jedwardvechio@gmail.com">
+						<i class="large mail icon"></i></a>
+					<a href="https://github.com/johnvecchio">
+						<i class="large git icon"></i></a>
+					<a href="https://codepen.io/jvecchio/">
+						<i class="large codepen icon"></i></a>
+				</span>
+		</div>
+	</div>
+</div>	
+
+<!-- PROJECTS  -->
+<div class="container">
+	<h2 class="top accordion-toggle">
+	~RUN $ cd /<span class="folder">projects</span></h2>
+
+	<div class="projects accordion-content">	
+		<hr/>
+		<p class="top cds">/scripts</p>
+		<hr/>
+		<div class="container text-center">
+			<div class="col-md-4">
+			<br>
+				<p>&lt;-- ======== DETAILS  ========= --&gt;</p>				<p>&lt;-- ==== check out my work ====--&gt;</p>
+				<p>&lt;-- = plz email for freelance = --&gt;</p>
+			</div>
+			<div class="col-md-2 col-sm-6">
+				<a href="https://johnvecchio.github.io/rgbGame/">RGB Game</a>
+				<p><strong>.js</strong></p>
+				<i class="huge grid layout icon"></i>
+			</div>	
+			<div class="col-md-2 col-sm-6">
+				<a href="https://johnvecchio.github.io/jqueryToDo/">Todo List</a>
+				<p><strong>.js</strong></p>
+				<i class="huge list layout icon"></i>
+			</div>	
+			<div class="col-md-2 col-sm-6">
+				<a href="https://itunes.apple.com/app/nuj-geo-based-reminders-alarms/id1098981625?mt=8">Nuj</a>
+				<p><strong>.ipa</strong></p>
+				<i class="huge apple icon"></i>
+			</div>
+			<div class="col-md-2 col-sm-6">
+				<a href="https://itunes.apple.com/us/app/spot-it-interactive-game/id1099005531?mt=8">Spot It</a>
+				<p><strong>.ipa</strong></p>
+				<i class="huge apple icon"></i>
+			</div>
+		</div>
+	</div>
 </div>
 
- <div class="projects"><a name="projects"></a>
-  <section class="container text-center">
-    <h1>Projects</h1>
+<!--  WORK  -->
+<div class="container">
+	<h2 class="top accordion-toggle">
+	~RUN $ cd /<span class="folder">lib</span></h2>
+	<div class="work accordion-content">
+		<hr/>
+		<p class="top cds">/assets</p>
+		<hr/>
+		<div class="col-md-3 col-sm-6 text-center">
+			<img src="https://upload.wikimedia.org/wikipedia/commons/5/57/PittPanthers.png" height="75" width="150">
+			<p>Bachelors</p>
+			<p>Poli.Sci -2014</p>
+		</div>	
+		<div class="col-md-3 col-sm-6 text-center">
+			<img src="https://images.efollett.com/htmlroot/images/templates/storeLogos/CA/1316.gif" height="75" width="150">
+			<p>Associates</p>
+			<p>Comp.Sci - 2015</p>
+		</div>	
+		<div class="col-md-3 col-sm-6 text-center">
+			<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/db/PPG_Logo.svg/2000px-PPG_Logo.svg.png" height="75" width="108">
+			<p>IT Analyst</p>
+			<p>2015-2016</p>
+		</div>
+		<div class="col-md-3 col-sm-6 text-center">
+			<img src="https://camberoutdoors.org/wp-content/uploads/civicrm/persist/contribute/images/miir%20LOGO%202016_resgistered-01.png" height="75" width="160">
+			<p>Systems Manager</p>
+			<p>2016-Present</p>
+		</div>
+	</div>
+</div>
+</div>
 
-      <div class="row">
-        <div class="col-sm-6">
-          <h2>Nuj</h2>
-           <p>Nuj is an iOS application I designed and coded. This app will alarm the user whenever they are within [set] miles of their destination. I made the app for all the days I would fall asleep on the bus to work. Give it a try!</p>
-           <p><br>
-           <a class="btn btn-primary"
-            href="https://itunes.apple.com/us/app/nuj-geo-based-reminders-and-alarms/id1098981625?mt=8"
-            role="button">View details &raquo;
-            </a></p>
-        </div>
+<!-- https://source.unsplash.com/user/erondu/xcQWMPm9fG8 -->
+<script
+  src="http://code.jquery.com/jquery-3.2.1.min.js"
+  integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+  crossorigin="anonymous"></script> 
+<script type="text/javascript" src="script.js" ></script>
 
-        <div class="col-sm-6">
-          <h2>Spot It</h2>
-          <p>Spot It is another iOS application I designed and coded. I am always thinking of fun games in my head I would love to make. This was one I actually made. It is a simple highscore based app that you and your friends would love.</p>
-          <p>
-          <a class="btn btn-primary"
-             href="https://itunes.apple.com/us/app/spot-it-interactive-game/id1099005531?mt=8"
-             role="button">View details &raquo;
-          </a></p>
-        </div>
-      </div>
-
-      <div class="row">
-        <div class="col-sm-6">
-         <h2>CloudList</h2>
-         <p>Coming soon! A cloud based To Do / Grocery list with a full library of items that groups and counts for you based on your needs. I am looking to have this one done by the end of Summer 2017
-         </p><br>
-         <a class="btn btn-primary"
-            href="https://www.google.com"
-            role="button">Coming Soon;
-         </a>
-        </div>
-
-        <div class="col-sm-6">
-          <h2>Other Projects</h2>
-          <br>
-          <a class="btn btn-primary"
-             href="https://github.com/johnvecchio"
-             role="button">GitHub &raquo;
-          </a>
-          <br><br>
-          <a class="btn btn-primary"
-             href="https://open.spotify.com/user/johnvecchio"
-             role="button">Spotify &raquo;
-          </a>
-        </div>
-    </div>
-  </section>
- </div>
-
- <div class="background"><a name="background"></a>
-   <section class="container text-center">
-     <h1>Background</h1>
-
-     <div class="row">
-       <div class="col-sm-4">
-         <img src="https://m.media-amazon.com/images/S/aplus-media/vc/a75371d2-118e-4691-b35e-865117c550b9._SL300__.jpg" >
-         </img>
-         <p>MiiR - 2016-Present
-         </p>
-       </div>
-       <div class="col-sm-8">
-         <h2>Systems Manager & TPM</h2>
-           <ul>
-             <li>Researched, implemented, and integrated all software within the company
-             </li>
-             <li>Administrate and provide support for all software and hardware within the company and storefront
-             </li>
-             <li>Wrote code for e-commerce and customer relationship management software
-             </li>
-             <li>Designed and coded an app to generate unique alphanumeric strings for products
-             </li>
-             <li>Logged and built all company project plans in Asana
-             </li>
-           </ul>
-         </div>
-       </div>
-
-
-
-       <div class="row">
-         <div class="col-sm-4">
-           <img src="https://pbs.twimg.com/profile_images/707684422967894016/YAnbfOYX.jpg" >
-           </img>
-           <p>PPG - 2015-2016
-           </p>
-         </div>
-         <div class="col-sm-8">
-           <h2>IT Analyst</h2>
-             <ul>
-               <li>Solved routine and critical issues in software and hardware for the company and employees
-               </li>
-               <li>Developed and implemented new training methods to educate new employees more efficiently
-               </li>
-               <li>Logged IT support tickets in vFire ITSM for company technology related issues
-               </li>
-               <li>Multitasked in a high speed and high volume environment of calls, emails, and chat
-               </li>
-               <li>Lead weekly meetings with all new employees to instruct on effective and timely solutions to difficult issues encountered, as well as review individual needs
-               </li>
-             </ul>
-         </div>
-       </div>
-
-<div class="break"></div>
-       <div class="row">
-         <div class="col-sm-6">
-           <img src="https://www.ucis.pitt.edu/esc/system/files/resources/images/Pittlogo_print.png" >
-           </img>
-           <p>University of Pittsburgh 2014
-           </p>
-           <p>Class of 2014
-           </p>
-           <p>BA - Political Science
-           </p>
-           <p>Minor - Computer Science
-           </p>
-         </div>
-
-         <div class="col-sm-6">
-           <img src="https://www.ccac.edu/uploadedImages/Pages/Workforce_Solutions/CCAC-Logo-200x150.jpg?n=6488" >
-           </img>
-           <p>Community College of Allegheny County
-           </p>
-           <p>Class of 2015
-           </p>
-           <p>AS - Computer & Information Science
-           </p>
-         </div>
-       </div>
-   </section>
- </div>
-
-<script type="text/javascript" src="script.js"></script>
 </body>
-
-<footer>
-<div class="row">
-  <div class="col-sm-6 text-center">
-    <p>Created by: John Vecchio</p>
-  </div>
-  <div class="col-sm-6 text-center">
-    <a href="mailto:jedwardvecchio@gmail.com">Email for Contact</a>
-  </div>
-</footer>
 </html>
