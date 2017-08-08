@@ -11,19 +11,19 @@ strong {
 	/*background-image: url("http://source.unsplash.com/jR4Zf-riEjI");*/
 	/*background-size: cover;*/
 	background-color: #f9dbe4;
-	height:          60rem;
+	height:          40rem;
 	align-items:     center;
 	display:         flex;
 }
 .jumbotron h2 {
   color:           white;
-  font-size:       7vw;
+  font-size:       6.5vw;
   /*font-weight:     bold;*/
   text-shadow:     4px 4px 4px #000000;
 }
 .jumbotron h3 {
   color:           white;
-  font-size:       3.5vw;
+  font-size:       3vw;
   /*font-weight:     bold;*/
   text-shadow:     4px 4px 4px #000000;
 }
