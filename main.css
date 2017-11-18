@@ -50,7 +50,6 @@ strong {
   display: inline;
 }
 
-
 /*=========*/
 .projects {
 	margin-bottom: 5rem;
@@ -64,6 +63,9 @@ strong {
 .projects img {
 	display: block;
     margin: 0 auto;
+}
+i.huge.icon, i.huge.icons {
+	margin-bottom: 18px;
 }
 /*=========*/
 #assets img {
