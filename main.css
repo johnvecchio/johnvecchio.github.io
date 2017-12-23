@@ -1,9 +1,14 @@
 body {
 	font-family: 'Source Code Pro', monospace;
 	background-color: #f9dbe4;
+	font-size: 12px !important;
 }
 strong {
 	color: #10b5ac;
+}
+
+h2 {
+	color: #7142f4;
 }
 /*=========*/
 .jumbotron { 
@@ -15,37 +20,37 @@ strong {
 	align-items:     center;
 	display:         flex;
 }
-.jumbotron h2 {
+.jumbotron .jumbotron__first-name {
   color:           white;
-  font-size:       6.5vw;
+  font-size:       6.2vw;
   /*font-weight:     bold;*/
-  text-shadow:     4px 4px 4px #000000;
+  text-shadow:     0px 4px 4px #000000;
 }
-.jumbotron h3 {
+.jumbotron .jumbotron__statement {
   color:           white;
-  font-size:       3vw;
+  font-size:       2.75vw;
   /*font-weight:     bold;*/
-  text-shadow:     4px 4px 4px #000000;
+  text-shadow:     0px 3px 3px #000000;
 }
 /*=========*/
-#mepic {
+.mepic {
 	border-radius: 50%;
 }
 
 .top {
 	padding-left: 10rem; 
+	text-shadow:     0px 4px 4px #eee;
 }
 .cds {
 	/*color: #3affff;*/
 	font-weight: bold;
 }
 
-#mediaicons a {
+#mediaicons .media__icon {
 	color: #5fdd8b;
 }
-#profile h3, h2 {
-	color: #7142f4;
-}
+
+
 #interests li { 
   display: inline;
 }
@@ -55,27 +60,14 @@ strong {
 	margin-bottom: 5rem;
 	font-weight: bold;
 }
-.projects a {
+.projects .project__link {
 	color: #7142f4;
 	font-size: 20px;
 	font-weight: 300;
 }
-.projects img {
-	display: block;
-    margin: 0 auto;
-}
+
 i.huge.icon, i.huge.icons {
 	margin-bottom: 18px;
-}
-/*=========*/
-#assets img {
-	display: block;
-    margin: 0 auto;
-}
-
-#assets p {
-	margin-top: 15px;
-	color: #7142f4;
 }
 
 .hideSection {
