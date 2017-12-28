@@ -94,10 +94,12 @@ i.huge.icon, i.huge.icons {
 
 .logo {
 	margin-bottom: 2rem;
+	-webkit-filter: invert(80%);
 	filter: invert(80%);
 }
 
 .logo__ccac {
+	-webkit-filter: grayscale(100%) invert(100%);
 	filter: grayscale(100%) invert(100%);
 	margin-bottom: 2rem;
 }
