@@ -1,33 +1,34 @@
 body {
 	font-family: 'Source Code Pro', monospace;
-	background-color: #f9dbe4;
+	background-color: #343D46;
 	font-size: 12px !important;
+	color: #EC5f67;
 }
 strong {
-	color: #10b5ac;
+	color: #6699CC;
 }
 
 h2 {
-	color: #7142f4;
+	color: #EC5f67;
 }
 /*=========*/
 .jumbotron { 
 	/*Q7PclNhVRI0*/
 	/*background-image: url("http://source.unsplash.com/jR4Zf-riEjI");*/
 	/*background-size: cover;*/
-	background-color: #f9dbe4;
+	background-color: #343D46;
 	height:          30rem;
 	align-items:     center;
 	display:         flex;
 }
 .jumbotron .jumbotron__first-name {
-  color:           white;
+  color:           #D8DEE9;
   font-size:       6.2vw;
   /*font-weight:     bold;*/
   text-shadow:     0px 4px 4px #000000;
 }
 .jumbotron .jumbotron__statement {
-  color:           white;
+  color:           #D8DEE9;
   font-size:       2.75vw;
   /*font-weight:     bold;*/
   text-shadow:     0px 3px 3px #000000;
@@ -35,15 +36,23 @@ h2 {
 /*=========*/
 .mepic {
 	border-radius: 50%;
+	filter: grayscale(50%);
+}
+
+.profile__header {
+	color: #6699CC;
 }
 
 .top {
 	padding-left: 10rem; 
-	text-shadow:     0px 4px 4px #eee;
 }
 .cds {
 	/*color: #3affff;*/
 	font-weight: bold;
+}
+
+.margin-bot {
+	margin-bottom:  2rem;
 }
 
 #mediaicons .media__icon {
@@ -61,7 +70,7 @@ h2 {
 	font-weight: bold;
 }
 .projects .project__link {
-	color: #7142f4;
+	color: #C594C5;
 	font-size: 20px;
 	font-weight: 300;
 }
@@ -75,8 +84,26 @@ i.huge.icon, i.huge.icons {
 }
 
 .folder {
-	color: #037f6c;
+	color: #F99157;
 }
+
+.tools {
+	filter: invert(70%);
+	margin-bottom: 1rem;
+}
+
+.logo {
+	margin-bottom: 2rem;
+	filter: invert(80%);
+}
+
+.logo__ccac {
+	filter: grayscale(100%) invert(100%);
+	margin-bottom: 2rem;
+}
+
+
+
 
 .accordion-toggle {cursor: pointer;}
 .accordion-content {display: none;}
